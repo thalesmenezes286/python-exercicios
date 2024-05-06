@@ -13,7 +13,7 @@ def verifica_ano_bissexto(ano):
         return False;
 
 #Loop For percorre os anos de 1900 até 2020 e imprime os anos bissextos
-for ano in range(1900, 2021):
+for ano in range(1900, 2031):
 
     if verifica_ano_bissexto(ano):
         print(f"{ano} é um ano bissexto.")
